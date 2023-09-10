@@ -65,3 +65,37 @@ a {
     color: #fff;
     line-height: 1.56;
 }
+
+.hero-sec {
+    background-color: aqua; 
+    padding-bottom: 280px; 
+    padding-top: 280px; 
+}
+
+.hero-title {
+    color: #E9E9E9;
+    text-align: center;
+        font-size: 55px;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 24px;
+
+}
+
+.hero-text {
+    color: #E9E9E9;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.67;
+        margin-bottom: 32px;
+}
+
+.hero-button {
+    display: block;
+    color: #FFF;
+    border-radius: 5px;
+    background: #28A745;
+    border: none;
+    padding: 10px 28px;
+    margin: 0 auto;
+}
