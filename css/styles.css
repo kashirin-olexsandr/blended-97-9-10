@@ -111,13 +111,26 @@ a {
 }
 
 .hero-button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   border-radius: 5px;
   background: #28a745;
   border: none;
   padding: 10px 28px;
   margin: 0 auto;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #23903c;
+  color: #f2f2f2;
+}
+
+.hero-icon {
+  fill: #fff;
 }
 
 .section-our-team {
@@ -166,6 +179,11 @@ a {
   border-radius: 5px;
   color: #fff;
   line-height: 1.56;
+  cursor: pointer;
+}
+
+.button-our-team:hover {
+  background-color: #23903c;
 }
 
 .section-we-do {
