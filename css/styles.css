@@ -191,5 +191,5 @@ a {
     display: flex;
     flex-wrap: wrap;
     row-gap: 24px;
-    column-gap: 20px;
+    column-gap: 20px; 
 }
