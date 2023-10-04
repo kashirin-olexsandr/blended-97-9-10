@@ -32,6 +32,10 @@
         width: 280px;
     }
 
+    .contacts-input-email {
+        margin-bottom: 40px;
+    }
+
     .our-team-container {
         display: flex;
         flex-direction: column;
