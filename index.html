@@ -19,6 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
   </head>
   <body>
     <header class="header">
@@ -39,7 +40,7 @@
     </header>
     <main>
       <!-- hero section -->
-      <section class="hero-sec">
+      <section class="hero-sec" id="home">
         <div class="container">
           <h1 class="hero-title">The Sky Is The Limit</h1>
           <p class="hero-text">We provide world class financial assistance</p>
@@ -47,17 +48,9 @@
         </div>
       </section>
       <!-- Section about our team -->
-      <section class="section-our-team">
+      <section class="section-our-team" id="about">
         <div class="container container-our-team">
-          <div class="container-img">
-            <img
-              class="team-img"
-              src="./images/ourteam.jpg"
-              alt="Our Team"
-              width="670"
-              height="460"
-            />
-          </div>
+          <div class="container-img"></div>
           <div class="container-description">
             <p class="team-subtitle">What you are looking for</p>
             <h2 class="team-title">We provide bespoke solutions</h2>
@@ -72,7 +65,7 @@
         </div>
       </section>
       <!--What we do-->
-      <section class="section-we-do">
+      <section class="section-we-do" id="cases">
         <div class="container">
           <p class="we-do-subtitle">This is what we do</p>
           <h2 class="business-title">Business Cases</h2>
@@ -85,45 +78,49 @@
               <img
                 src="./images/case-1.jpg"
                 alt="Team around the Table"
-                width="421"
+                width="421" 
+                class="we-do-img"
               />
             </li>
             <li class="we-do-item">
               <img
                 src="./images/case-2.jpg"
                 alt="Laptop and Notepad"
-                width="421"
+                width="421" 
+                class="we-do-img"
               />
             </li>
             <li class="we-do-item">
-              <img src="./images/case-3.jpg" alt="Meeting" width="421" />
+              <img src="./images/case-3.jpg" alt="Meeting" width="421" class="we-do-img" />
             </li>
             <li class="we-do-item">
-              <img src="./images/case-4.jpg" alt="Hands" width="421" />
+              <img src="./images/case-4.jpg" alt="Hands" width="421" class="we-do-img" />
             </li>
             <li class="we-do-item">
-              <img src="./images/case-5.jpg" alt="Laptop" width="421" />
+              <img src="./images/case-5.jpg" alt="Laptop" width="421" class="we-do-img" />
             </li>
             <li class="we-do-item">
-              <img src="./images/case-6.jpg" alt="Skyscreapers" width="421" />
+              <img src="./images/case-6.jpg" alt="Skyscreapers" width="421" class="we-do-img" />
             </li>
           </ul>
         </div>
       </section>
       <!--Section blog-->
-      <section class="blog-post">
-        <div class="blog-cont">
-          <p class="blog-date">April 16 2020</p>
-          <h2 class="blog-title">Blog Post One</h2>
-          <p class="blog-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-            ipsum dignissimos quae laudantium asperiores nam aliquid impedit
-            harum illum dolore explicabo ab dolores itaque rerum temporibus
-            doloribus iste maiores deleniti?
-          </p>
-          <button type="button" class="blog-button">Read Our Blog</button>
+      <section class="blog-post" id="blog">
+        <div class="blog-elements">
+          <div class="blog-cont">
+            <p class="blog-date">April 16 2020</p>
+            <h2 class="blog-title">Blog Post One</h2>
+            <p class="blog-content">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+              ipsum dignissimos quae laudantium asperiores nam aliquid impedit
+              harum illum dolore explicabo ab dolores itaque rerum temporibus
+              doloribus iste maiores deleniti?
+            </p>
+            <button type="button" class="blog-button">Read Our Blog</button>
+          </div>
+        <div class="blog-img"></div>
         </div>
-        <img src="./images/blogpostone.jpg" alt="desktop" width="670" />
       </section>
       <!-- section our team-->
       <section class="our-team-section">
@@ -238,13 +235,15 @@
         </ul>
         </div>
       </section>
-      <section class="section-contacts">
-        <img src="./images/foot-img.jpg" alt="foot-img" width="670">
-        <div class="contacts-content">
-          <h2 class="contacts-title">Request Callback</h2>
-          <input type="text" placeholder="Enter your name" class="contacts-input-name">
-          <input type="email" placeholder="Enter email*" class="contacts-input-email">
-          <button class="contacts-send-button">Send</button>
+      <section class="section-contacts" id="contact">
+        <div class="contacts-elements">
+          <img src="./images/foot-img.jpg" alt="foot-img" width="670" class="footer-image">
+          <div class="contacts-content">
+            <h2 class="contacts-title">Request Callback</h2>
+            <input type="text" placeholder="Enter your name" class="contacts-input-name">
+            <input type="email" placeholder="Enter email*" class="contacts-input-email">
+            <button class="contacts-send-button">Send</button>
+          </div>
         </div>
       </section>
     </main>

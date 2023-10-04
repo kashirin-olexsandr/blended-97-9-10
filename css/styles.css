@@ -141,12 +141,9 @@ a {
   display: flex;
 }
 
-.container-img {
-  flex-shrink: 0;
-}
-
 .container-description {
   padding: 80px 64px 80px 20px;
+  width: 690px;
 }
 
 .team-subtitle {
@@ -183,6 +180,16 @@ a {
   background-color: #23903c;
 }
 
+.container-img {
+  background-image: url(../images/ourteam.jpg);
+  width: 670px;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* We do */
+
 .section-we-do {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -213,6 +220,7 @@ a {
 .business-subtitle {
   color: #333;
   text-align: center;
+  font-size: 18px;
   line-height: 1.56;
   margin-bottom: 24px;
 }
@@ -233,6 +241,7 @@ a {
 
 .blog-cont {
   padding: 80px 56px 80px 28px;
+  width: 690px;
 }
 
 .blog-date {
@@ -267,6 +276,18 @@ a {
 
 .blog-button:hover {
   background-color: #0271b1;
+}
+
+.blog-elements {
+  display: flex;
+}
+
+.blog-img {
+  width: 670px;
+  height: 460px;
+  background-image: url(../images/blogpostone.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 
@@ -385,7 +406,7 @@ a {
   margin-bottom: 32px;
   padding-top: 10px;
   padding-left: 8px;
-  color: #808080;
+  color: #333;
   font-size: 18px;
   line-height: 1.56; 
   border: 1px solid #F5F5F5;
@@ -397,7 +418,7 @@ a {
 .contacts-input-email {
   padding-top: 10px;
   padding-left: 8px;
-  color: #808080;
+  color: #333;
   font-size: 18px;
   line-height: 1.56; 
   border: 1px solid #F5F5F5;
@@ -431,11 +452,15 @@ a {
   background-color: #23903c;
 }
 
+.contacts-elements {
+  display: flex;
+}
+
 /* Footer */
 
 .footer {
   width: 100%;
-  background: #333;
+  background-color: #333;
   padding: 20px 0;
 }
 
